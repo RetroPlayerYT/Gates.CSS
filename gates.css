@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+
+@keyframes click {
+    0% {background-color: #69340f;}
+    0% {color: white;}
+    10% {background-color: transparent;}
+    10% {color: black;}
+}
+
+@keyframes click3 {
+    0% {background-color: #A7580F;}
+    0% {color: white;}
+    10% {background-color: transparent;}
+    10% {color: black;}
+}
+
+@keyframes click4 {
+    0% {background-color: #962C2C;}
+    0% {color: white;}
+    10% {background-color: transparent;}
+    10% {color: black;}
+}
+
+.gates-primary{
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+.gates-primary:hover{
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    background-color: saddlebrown;
+    color: white;
+}
+
+.gates-primary:focus{
+    border: 2px solid #69340f;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click;
+    animation-duration: 4s;
+}
+
+@keyframes click2 {
+    0% {background-color: #006700;}
+    0% {color: white;}
+    10% {background-color: transparent;}
+    10% {color: black;}
+}
+
+.gates-secondary{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+.gates-secondary:hover{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.gates-secondary:focus{
+    border: 2px solid #006700;
+    border-radius: 5px;
+    background-color: #006700;
+    animation-name: click2;
+    animation-duration: 4s;
+}
+
+.gates-primary-large{
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.gates-primary-large:hover{
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    background-color: saddlebrown;
+    color: white;
+}
+
+.gates-primary-large:focus{
+    border: 2px solid #69340f;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click;
+    animation-duration: 4s;
+}
+
+.gates-secondary-large{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.gates-secondary-large:hover{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.gates-secondary-large:focus{
+    border: 2px solid #006700;
+    border-radius: 5px;
+    background-color: #006700;
+    animation-name: click2;
+    animation-duration: 4s;
+}
+
+.gates-success{
+    border: 2px solid #1CB741;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+.gates-success:hover{
+    border: 2px solid #1CB741;
+    border-radius: 5px;
+    background-color: #1CB741;
+    color: white;
+}
+
+.gates-success:focus{
+    border: 2px solid #14832E;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click2;
+    animation-duration: 4s;
+}
+
+.gates-warning{
+    border: 2px solid #DD7414;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+.gates-warning:hover{
+    border: 2px solid #DD7414;
+    border-radius: 5px;
+    background-color: #DD7414;
+    color: white;
+}
+
+.gates-warning:focus{
+    border: 2px solid #DD7414;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click3;
+    animation-duration: 4s;
+}
+
+.gates-error{
+    border: 2px solid #CA3C3C;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+.gates-error:hover{
+    border: 2px solid #CA3C3C;
+    border-radius: 5px;
+    background-color: #CA3C3C;
+    color: white;
+}
+
+.gates-error:focus{
+    border: 2px solid #CA3C3C;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click4;
+    animation-duration: 4s;
+}
+
+.gates-success-large{
+    border: 2px solid #1CB741;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.gates-success-large:hover{
+    border: 2px solid #1CB741;
+    border-radius: 5px;
+    background-color: #1CB741;
+    color: white;
+}
+
+.gates-success-large:focus{
+    border: 2px solid #14832E;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click2;
+    animation-duration: 4s;
+}
+
+.gates-warning-large{
+    border: 2px solid #DD7414;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.gates-warning-large:hover{
+    border: 2px solid #DD7414;
+    border-radius: 5px;
+    background-color: #DD7414;
+    color: white;
+}
+
+.gates-warning-large:focus{
+    border: 2px solid #DD7414;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click3;
+    animation-duration: 4s;
+}
+
+.gates-error-large{
+    border: 2px solid #CA3C3C;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.gates-error-large:hover{
+    border: 2px solid #CA3C3C;
+    border-radius: 5px;
+    background-color: #CA3C3C;
+    color: white;
+}
+
+.gates-error-large:focus{
+    border: 2px solid #CA3C3C;
+    border-radius: 5px;
+    background-color: transparent;
+    animation-name: click4;
+    animation-duration: 4s;
+}
+
+.gates-input{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.gates-input:focus{
+    border: 2.5px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
