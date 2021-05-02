@@ -8,34 +8,32 @@
   "components": [
     {
       "type": "heading",
-      "text": "More to read"
+      "text": "Other frameworks"
     },
     {
       "type": "small",
-      "title": "Learn about cats",
-      "url": "https://wikipedia.org/wiki/Cat",
-      "image": "assets/bookend_cats.jpg"
+      "title": "Bootstrap",
+      "url": "https://getbootstrap.com/",
+      "image": "https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png"
     },
     {
       "type": "landscape",
-      "title": "Learn about border collies",
-      "url": "https://wikipedia.org/wiki/Border_Collie",
-      "image": "assets/bookend_dogs.jpg",
-      "category": "Dogs"
+      "title": "Pure.CSS",
+      "url": "https://purecss.io/",
+      "image": "https://www.drupal.org/files/project-images/screenshot-pure_7.png",
     },
     {
-      "type": "portrait",
-      "title": "Learn about macaws",
-      "url": "https://wikipedia.org/wiki/Macaw",
-      "image": "assets/bookend_birds.jpg",
-      "category": "birds"
+      "type": "landscape",
+      "title": "Bulma",
+      "url": "https://bulma.io/",
+      "image": "https://bulma.io/images/bulma-logo.png",
     },
     {
       "type": "cta-link",
       "links": [
         {
-          "text": "Learn more",
-          "url": "https://www.ampproject.org/stories/"
+          "text": "Gates.CSS Docs",
+          "url": "https://retroakame.com/gatescss/docs"
         }
       ]
     }
